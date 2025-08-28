@@ -16,6 +16,7 @@ Write a python program for matrix multiplication and inspect for failures.
 6. Stop the program. 
 
 ## Program
+```python
 print("Enter rows and columns for first matrix:")
 r1, c1 = map(int, input().split())
 print("Enter rows and columns for second matrix:")
@@ -34,7 +35,7 @@ else:
     print("Resultant Matrix:")
     for row in res:
         print(*row)
-
+```
 ## Output
 <img width="569" height="296" alt="image" src="https://github.com/user-attachments/assets/f6ab16cc-8dfe-4665-83ad-4a8103ba44cd" />
 
